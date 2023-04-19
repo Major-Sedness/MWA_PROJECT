@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+}
+h1{
+    background-color: purple;
+    color:white;
+    text-align: center;
+    margin-top: 10px;
+}
+.product{
+    text-align: center;
+}
+button{
+    color:white;
+    background: purple;
+    border-radius: 0.9px;
+}
+button:hover{
+
+    padding:10px;
+    border: 3px solid burlywood;
+    transition: 0.3s;
+}
+.shop-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+    gap : 100px
+}
+.product-box{
+    margin: 200px;
+}
+.product-box:hover{
+    padding:6px;
+    border: 3px solid purple ;
+    transition: 0.3s 
+}
+.shop-container{
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+footer{
+    text-align: center;
+}
+#submit{
+    height: 30px;
+    background-color: purple;
+    color: white;
+}
+.contact_inner{
+    margin-left: 300px;
+    margin-right: 100px;
+}
+h2.contact{
+    text-align: center;
+}
+img{
+    width: 220px;
+    height: auto;
+}
+@media screen and (max-width: 800px) {
+ .left, .main, .right,body, h1,table,img, nav {
+     width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+}
+}

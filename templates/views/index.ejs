@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>Manga.store</title>
+    <link href="home_page.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h1>Manga Store</h1>
+    
+    <nav class="navbar bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:white">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/cart" style="color:white">cart</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                  pricing 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white">About Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- <p>Hello, welcome to the manga store</p> -->
+    <section class="shop-container">
+        <div class="shop-content">
+          <!--1-->
+            <div class="product-box" data-id="1" data-name="Solo leveling" data-price="250">
+                <img src="img/solo_lvl.jpg" alt="">
+                <h2 class="product-title">Solo Leveling</h2>
+                <span class="price">Price : 250</span>
+                <!-- <form action="/Product" method="GET">
+                  <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                  <button type="submit">Add to cart</button> 
+                </form>      -->
+            </div>
+
+            <!--2-->
+            <div class="product-box" data-id="2" data-name="Death Note" data-price="250" >
+                <img src="img/Death_note_anime_Japanese_dvd_Volume_1_cover.jpg" alt="" >
+                <h2 class="product-title">Death Note</h2>
+                <span class="price">Price : 250</span>
+                <!-- <form action="/Product" method="GET">
+                  <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                  <button type="submit">Add to cart</button> 
+                </form>       -->
+            </div>
+            <!--3-->
+            <div class="product-box" data-id="3" data-name="Jujutsu Kaisen" data-price="250">
+                <img src="img/Jujutsu-Kaisen-Vol.-14.png" alt="" >
+                <h2 class="product-title">Jujutsu Kaisen</h2>
+                <span class="price">Price : 250</span>
+                <!-- <form action="/Product" method="GET">
+                  <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                  <button type="submit">Add to cart</button> 
+                </form>      -->
+            </div>
+            <!--4-->
+            <div class="product-box" data-id="4" data-name="My Hero Academia" data-price="250">
+                <img src="img/My-Hero-Academia-Vol-30-Cover.jpg" alt="">
+                <h2 class="product-title">My Hero Academia</h2>
+                <span class="price">Price : 250</span>
+                <!-- <form action="/Product" method="GET">
+                  <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                  <button type="submit">Add to cart</button> 
+                </form>    -->
+            </div>
+            <!--5-->
+            <div class="product-box" data-id="5" data-name="one punch man" data-price="250">
+                <img src="img/one_punch_man.jpg" alt="">
+                <h2 class="product-title">one punch man</h2>
+                <span class="price">Price : 250</span>
+                <!-- <form action="/Product" method="GET">
+                  <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                  <button type="submit">Add to cart</button> 
+                </form>      -->
+            </div>
+            <!--6-->
+            <div class="product-box" data-id="6" data-name="Redo Of the Healer" data-price="250">
+              <img src="img/healer_boi.jpg" alt="">
+              <h2 class="product-title">Redo Of the Healer</h2>
+              <span class="price">Price : 250</span>
+              <!-- <form action="/Product" method="GET">
+                <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                <button type="submit">Add to cart</button> 
+              </form>     -->
+          </div>
+          <!--7-->
+          <div class="product-box" data-id="7" data-name="Campfire Cooking" data-price="250">
+              <img src="img/Campfire_Cooking_in_Another_World_with_My_Absurd_Skill_volume_1.jpg" alt="" >
+              <h2 class="product-title">Campfire Cooking</h2>
+              <span class="price">Price : 250</span>
+              <!-- <form action="/Product" method="GET">
+                <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                <button type="submit">Add to cart</button> 
+              </form>     -->
+          </div>
+         <!--8-->
+          <div class="product-box" data-id="8" data-name="Tower Of Gods" data-price="250">
+              <img src="img/tower_of_gods.jpg" alt="" >
+              <h2 class="product-title">Tower Of Gods</h2>
+              <span class="price">Price : 250</span>
+              <!-- <form action="/Product" method="GET">
+                <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                <button type="submit">Add to cart</button> 
+              </form>    -->
+          </div>
+          <!--9-->
+          <div class="product-box" data-id="9" data-name="Mob Psycho 100" data-price="250">
+              <img src="img/Mob_Psycho_100_manga_vol_1.jpg" alt="">
+              <h2 class="product-title">Mob Psycho 100</h2>
+              <span class="price">Price : 250</span>
+              <!-- <form action="/Product" method="GET">
+                <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                <button type="submit">Add to cart</button> 
+              </form>      -->
+          </div>
+          <!--10-->
+          <div class="product-box" data-id="10" data-name="Magic Emperor" data-price="250">
+              <img src="img/magic_boi.jpg" alt="">
+              <h2 class="product-title">Magic Emperor</h2>
+              <span class="price">Price : 250</span>
+              <!-- <form action="/Product" method="GET">
+                <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+                <button type="submit">Add to cart</button> 
+              </form>   -->
+          </div>
+          </div>
+          <section class="product">
+          <form action="/Product" method="GET" >
+            <input type="text" name="name" placeholder="Enter Product name" id="productSubmitButton">
+            <button type="submit">Add to cart</button> 
+          </form>  
+          </section>
+    </section>
+
+    <div>
+      <section id="contact">
+        <h2 class="contact">Contact us</h2>
+           <div class="contact_inner">
+              <form action="/contact" method="POST">
+                <label>Name</label>
+                <input type="text" name="name">
+                <label>Email</label>
+                <input type="email" name="email">
+                <label>Mobile Number</label>
+                <input type="text" name="number">
+                <label>Message</label>
+                <input type="text" name="message">
+                <input id="submit" type="submit">
+              </form>
+            </div>
+      </section>
+    </div>
+
+    <footer>
+        <p>&copy; Manga Store 2023</p>
+    </footer>
+    <script src="../jq/jquery.js" type="text/javascript"></script>
+    <script src="../js/bootstrap.js" type="text/javascript"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      //$(document).ready(function() {
+     // $("#productForm").submit(function(event) {
+      //  event.preventDefault();
+      //  const productName = $("#productNameInput").val();
+      //  $.get(`/Product/${productName}`)
+      //    .done(function(product) {
+      //      console.log(product);
+       //     // Handle response from server
+       //   })
+       //   .fail(function(error) {
+       //     console.error(error);
+       //     // Handle error
+  //        });
+  //    });
+  //  });
+  //   $("#productSubmitButton").click(function(event) {
+  //  event.preventDefault();
+  //});
+    </script>
+</body>
+</html>

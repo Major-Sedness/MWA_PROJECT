@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Shopping Cart</h1>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items">
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td id="cart-total">$0.00</td>
+        </tr>
+      </tfoot>
+    </table>
+    <ul>
+    <li ng-repeat="product in products">{{ product.name }} - {{ product.price }}</li>
+    </ul>
+
+  </main>
+  <script src="../jq/jquery.js" type="text/javascript"></script>
+  <script src="../js/bootstrap.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="cart.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="cart.js"></script>
+</head>
+<body ng-app="cartApp" ng-controller="cartController">
+  <header>
+    <h1>Shopping Cart</h1>
+  </header>
+  <main>
+    <table>
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody id="cart-items">
+        <tr ng-repeat="item in cartItems">
+          <td style="color: black;"></td>
+          <td style="color: black;"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td style="color: black;" >Total</td>
+          <td id="cart-total" style="color: black;"></td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+</body>
+</html>

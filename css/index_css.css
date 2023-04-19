@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+h1 {
+    color: purple;
+    text-align: center;
+}
+form {
+    border: 2px solid purple;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"] {
+    padding: 5px;
+    font-size: 16px;
+    width: 100%;
+    border: 2px solid purple;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #8B008B;
+}
